@@ -3,6 +3,10 @@ body, html {
   width: 100%;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .container-bg {
   /* The image used */
   background-image: url("https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80");
@@ -19,3 +23,69 @@ body, html {
   background-size: cover;
 }
 
+.background-show {
+  padding: 0;
+  margin: 0;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container-show {
+
+  height: 100%;
+  width: 100%;
+
+}
+
+.show-title {
+  padding: 12px;
+  background-color: white;
+
+  h1 {
+    font-size: 25px;
+  }
+}
+
+.container-ingredients {
+  padding: 20px;
+  margin: 10px auto;
+    h2 {
+      font-size: 20px;
+    }
+
+}
+
+.container-list-ingredients {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  .dose {
+    padding-right: 3px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.background-create {
+  padding: 0;
+  margin: 0;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+}
